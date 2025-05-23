@@ -32,15 +32,35 @@ export function SkillChart() {
     ],
   };
 
+  const options = {
+    responsive: true,
+    maintainAspectRatio: false,
+    scales: {
+      r: {
+        beginAtZero: true,
+        max: 5,
+        ticks: {
+          stepSize: 1
+        }
+      }
+    }
+  };
+
   return (
-    <section className="px-4 py-12 max-w-3xl mx-auto space-y-12">
-      <div>
-        <h2 className="text-2xl mb-4">技術力</h2>
-        <Radar data={dataTech} />
-      </div>
-      <div>
-        <h2 className="text-2xl mb-4">人間力</h2>
-        <Radar data={dataHuman} />
+    <section className="px-4 py-12 max-w-3xl mx-auto">
+      <div className="flex flex-row gap-6 justify-center items-start">
+        <div className="w-40 flex flex-col items-center">
+          <h2 className="text-2xl mb-4">技術力</h2>
+          <div className="w-40 h-40">
+            <Radar data={dataTech} options={options} />
+          </div>
+        </div>
+        <div className="w-40 flex flex-col items-center">
+          <h2 className="text-2xl mb-4">人間力</h2>
+          <div className="w-40 h-40">
+            <Radar data={dataHuman} options={options} />
+          </div>
+        </div>
       </div>
     </section>
   );
