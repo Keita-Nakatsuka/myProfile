@@ -12,6 +12,9 @@ module.exports = {
       },
       fontFamily: {
         serif: ["'Noto Serif JP'", "serif"]
+      },
+      fontSize: {
+        '9xl': '10rem',
       }
     },
   },
