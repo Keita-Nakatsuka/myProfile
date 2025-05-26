@@ -55,7 +55,7 @@ export function SkillChart() {
     <section className="w-full px-4 mb-0 min-h-[80vh] flex flex-col justify-between">
       <div className="w-full max-w-7xl mx-auto flex-grow">
         {/* タイトル */}
-        <h1 className="text-6xl md:text-3xl font-bold">スキル・性格</h1>
+        <h1 className="text-5xl md:text-3xl font-bold">スキル・性格</h1>
         {/* スキルチャート */}
           <div className="flex flex-col md:flex-row justify-center items-start gap-12 mt-10">
             <div className="flex flex-col items-center">
@@ -68,9 +68,9 @@ export function SkillChart() {
               <h2 className="text-2xl mb-4">スキルについて</h2>
               <ul className="space-y-2 text-left mt-2">
                 <li>• 要件定義: ディレクター経歴が長いため話し合いながら仕様を詰めていくことが得意です</li>
-                <li>• 設計: データやパラメータの定義は得意ですが、インフラ設計は経験少なめです</li>
-                <li>• 実装: コーディングはブランク歴も長いのであまり得意ではありません</li>
-                <li>• テスト: 実装内容がわかるのでどこに問題があるかの特定が早いです</li>
+                <li>• 設計: データやパラメータの定義は得意ですが、アプリ・インフラ設計経験少なめです</li>
+                <li>• 実装: コーディングは好きですがブランクもありそこまで得意ではありません</li>
+                <li>• テスト: 経験と勘から問題の特定が早いです</li>
                 <li>• 運用: KPI分析から改善案の作成経験が長いです</li>
               </ul>
             </div>
