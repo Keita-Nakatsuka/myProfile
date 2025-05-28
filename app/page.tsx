@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <ParticlesBackground />
-      <main className=" text-textPrimary font-serif">
+      <main className="absolute top-20 left-0 w-full text-textPrimary font-serif">
         <div className="min-h-screen flex items-start">
           <Hero />
         </div>
