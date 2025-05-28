@@ -85,7 +85,7 @@ export function SkillChart() {
                 <StepScaleBar labelLeft="思考型" labelRight="感情型" value={4} />
                 <StepScaleBar labelLeft="計画型" labelRight="探索型" value={4} />
                 <StepScaleBar labelLeft="自己主張型" labelRight="激動型" value={6} />
-                <h2 className="text-2xl mb-4 text-center">MBTI診断は【INTF-T】です</h2>
+                <h2 className="text-2xl mb-4 text-center">MBTI診断は【INTJ-T】です</h2>
               </div>
             </div>
           </div>
